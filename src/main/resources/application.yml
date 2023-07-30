@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://118.89.134.164:3306/jpa?useSSL=false&serverTimezone=GMT%2B8&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: root
+    password: srftxy20020520
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
